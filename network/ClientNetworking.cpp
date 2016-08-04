@@ -198,7 +198,7 @@ bool ClientNetworking::ConnectToServer(
                     DebugLogger() << "ClientNetworking::ConnectToServer : this client using binary serialization.";
                 else
                     DebugLogger() << "ClientNetworking::ConnectToServer : this client using xml serialization.";
-                m_socket.set_option(boost::asio::socket_base::linger(true, SOCKET_LINGER_TIME));
+		m_socket.set_option(boost::asio::socket_base::keep_alive(true));
                 m_socket.set_option(boost::asio::socket_base::keep_alive(true));
                 DebugLogger() << "ClientNetworking::ConnectToServer : starting networking thread";
                 boost::thread(boost::bind(&ClientNetworking::NetworkingThread, this));
