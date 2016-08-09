@@ -8,7 +8,7 @@ from planets import planet_types_real, planet_sizes_real
 
 # if star_groups_use_chars is true use entries from the stringtable entry STAR_GROUP_CHARS (single characters),
 # otherwise use words like 'Alpha' from the stringtable entry STAR_GROUP_WORDS.
-STAR_GROUPS_USE_CHARS = True
+STAR_GROUPS_USE_CHARS = False
 
 # postfix_stargroup_modifiers determines how star group system names are modified.
 # if true, the greek letters (as chars or words, determined by star_group_use_chars,
