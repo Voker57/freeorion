@@ -16,8 +16,8 @@ English
 # جامعة
 # یای مجهو
 
-FREEORION_DEVELOPERS
-Криворукие долбоебы
+TEST
+хуй
 
 
 ##
@@ -13727,30 +13727,30 @@ Omega'''
 
 # Newline separated list of star cluster suffixes
 STAR_GROUP_CHARS
-'''α
-β
-γ
-δ
-ε
-ζ
-η
-θ
-ι
-κ
-λ
-μ
-ν
-ξ
-ο
-π
-ρ
-σ
-τ
-υ
-φ
-χ
-ψ
-ω'''
+'''а
+б
+в
+г
+д
+е
+ё
+ж
+з
+и
+к
+л
+м
+н
+о
+п
+р
+с
+т
+у
+ф
+х
+ц
+ч'''
 
 # Newline separated list of star cluster names
 STAR_GROUP_NAMES
