@@ -15,6 +15,7 @@ English
 # 를와ẵừổ
 # جامعة
 # یای مجهو
+# γ
 
 FREEORION_DEVELOPERS
 Криворукие долбоебы
