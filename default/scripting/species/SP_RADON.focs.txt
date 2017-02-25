@@ -1,13 +1,12 @@
 Species
-    name = "SP_ABADDONI"
-    description = "SP_ABADDONI_DESC"
-    gameplay_description = "SP_ABADDONI_GAMEPLAY_DESC"
+    name = "SP_RADON"
+    description = "SP_RADON_DESC"
+    gameplay_description = "SP_RADON_GAMEPLAY_DESC"
     Playable
-    //Native
     CanProduceShips
     CanColonize
 
-    tags = [ "LITHIC" "BAD_RESEARCH" "AVERAGE_SUPPLY" "BAD_ATTACKTROOPS" ]
+    tags = [ "ROBOTIC" "GOOD_INDUSTRY" "BAD_RESEARCH" "AVERAGE_SUPPLY" ]
 
     foci = [
         [[HAS_INDUSTRY_FOCUS]]
@@ -19,32 +18,24 @@ Species
     preferredfocus = "FOCUS_INDUSTRY"
 
     effectsgroups = [
-        [[AVERAGE_INDUSTRY]]
+        [[GOOD_INDUSTRY]]
         [[BAD_RESEARCH]]
 
         [[AVERAGE_POPULATION]]
         [[AVERAGE_HAPPINESS]]
         [[AVERAGE_SUPPLY]]
-        [[BAD_DEFENSE_TROOPS]]
-        [[BAD_OFFENSE_TROOPS]]
-        EffectsGroup
-            scope = Source
-            activation = Turn high = 1
-            effects = [
-                GiveEmpireTech name = "GRO_SUBTER_HAB" empire = Target.Owner
-           ]
+        [[GOOD_DEFENSE_TROOPS]]
 
         // not for description
         [[AVERAGE_PLANETARY_SHIELDS]]
         [[AVERAGE_PLANETARY_DEFENSE]]
         [[LARGE_PLANET]]
-        [[BROAD_EP]]
         [[STANDARD_SHIP_SHIELDS]]
     ]
 
-    [[INFERNO_BROAD_EP]]
+    [[RADIATED_STANDARD_EP]]
 
-    graphic = "icons/species/abaddonnian.png"
+    graphic = "icons/species/robotic-05.png"
 
 #include "common/*.macros"
 
