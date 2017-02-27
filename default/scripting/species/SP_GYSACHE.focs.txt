@@ -6,7 +6,7 @@ Species
     CanProduceShips
     CanColonize
 
-    tags = [ "ORGANIC" "GOOD_INDUSTRY" "GREAT_RESEARCH" "GOOD_POPULATION" "BAD_WEAPONS" "AVERAGE_SUPPLY" "BAD_ATTACKTROOPS" ]
+    tags = [ "ORGANIC" "GOOD_INDUSTRY" "GOOD_RESEARCH" "BAD_WEAPONS" "AVERAGE_SUPPLY" "BAD_ATTACKTROOPS" ]
 
     foci = [
         [[HAS_INDUSTRY_FOCUS]]
@@ -17,9 +17,8 @@ Species
 
     effectsgroups = [
         [[GOOD_INDUSTRY]]
-        [[GREAT_RESEARCH]]
+        [[GOOD_RESEARCH]]
 
-        [[GOOD_POPULATION]]
         [[AVERAGE_HAPPINESS]]
         [[AVERAGE_SUPPLY]]
         [[BAD_DEFENSE_TROOPS]]
